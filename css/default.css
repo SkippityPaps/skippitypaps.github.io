@@ -34,6 +34,8 @@ body {
   color: var(--primary-font-color);
 }
 
+
+
 header menu {
   display: flex;
   align-items: center;
@@ -69,8 +71,7 @@ header menu li {
   color: var(--pink);
 }*/
 
-
-a:link{
+a{
   text-decoration: none; 
   color: var(--red);
 }
@@ -83,16 +84,17 @@ a:hover{
   color: var(--lime-green); 
 }
 
-header menu li a {
-  text-decoration: none !important;
+header menu li a{
+  text-decoration: none;
   color: var(--primary-font-color);
 }
 header menu li a:visited {
   color: var(--primary-font-color);
 }
 header menu li a:hover{
-  color: var(--red);
+  color: var(--red) !important;;
 }
+
 main {
   display: flex;
   flex-direction: column; 
